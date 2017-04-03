@@ -2,6 +2,13 @@
 @import 'mixins.scss';
 
 /* often used */
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
 .break-white {
   background-color: $white;
   padding: 20px 0;
@@ -9,7 +16,6 @@
 
 .img-thumbnail {
   border:0;
-
 }
 
 .btn-read-more {
@@ -248,5 +254,8 @@ nav {
 
 .article {
   padding-top: 20px;
+}
 
+.article-content {
+  padding-top: 10px;
 }
