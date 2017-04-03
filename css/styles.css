@@ -3,6 +3,21 @@
   background-color: #FFFFFF;
   padding: 20px 0; }
 
+.img-thumbnail {
+  border: 0; }
+
+.btn-read-more {
+  background-color: black;
+  transition-duration: 1s;
+  border: 0;
+  background: repeating-linear-gradient(90deg, #231F20, #231F20 30px, #3d2a2f 30px, #3d2a2f 60px); }
+  .btn-read-more:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background: repeating-linear-gradient(90deg, #3d2a2f, #3d2a2f 30px, #231F20 30px, #231F20 60px); }
+  .btn-read-more:focus :active {
+    border: 0; }
+
 nav {
   background-color: #F0B83D;
   display: block;
@@ -23,7 +38,8 @@ nav {
         margin: 0 -2px 0 -2px;
         border-right: 1px solid #f0e43d; }
         nav .container .navigation .navigation-item a {
-          font-family: 'Open Sans', sans-serif;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
           color: #231F20;
           font-size: 14px; }
           nav .container .navigation .navigation-item a:hover {
@@ -70,17 +86,18 @@ nav {
           font-size: 38px; }
         .logo-container .logo-full-width .container .logo-text h1 {
           color: #FFFFFF;
-          font-family: 'Russo One', sans-serif;
+          font-family: 'Oranienbaum', serif;
           text-transform: uppercase;
           letter-spacing: 4px;
           font-weight: bold;
-          font-size: 48px; }
+          font-size: 54px; }
       .logo-container .logo-full-width .container .clear {
         clear: both; }
 
 /* most popular articles section */
 .most-popular {
-  border: 2px solid #231F20; }
+  border: 2px solid #231F20;
+  padding-bottom: 20px; }
   .most-popular .row .popular-header {
     padding-top: 10px;
     padding-bottom: 5px;
@@ -92,7 +109,7 @@ nav {
       .most-popular .row .popular-header .popular-header-text h3 {
         color: white;
         font-family: 'Russo One', sans-serif;
-        letter-spacing: 2px; }
+        letter-spacing: 3px; }
     .most-popular .row .popular-header .stripes {
       float: right;
       width: 100px;
@@ -109,13 +126,19 @@ nav {
     .most-popular .card-group .single-card .card-text {
       padding: 10px 0; }
       .most-popular .card-group .single-card .card-text h4 {
-        font-family: 'Russo One', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
         font-size: 1.25rem; }
+      .most-popular .card-group .single-card .card-text .read-more {
+        width: 100%; }
   .most-popular .card-group > :last-child {
     margin-right: 0; }
 
 /* content section styles */
 /* latest news section styles */
+.news {
+  border: 2px solid #231F20; }
+
 .latest-header {
   padding-top: 10px;
   padding-bottom: 5px;
@@ -126,3 +149,6 @@ nav {
     color: white;
     font-family: 'Russo One', sans-serif;
     letter-spacing: 2px; }
+
+.article {
+  padding-top: 20px; }
