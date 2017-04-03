@@ -1,0 +1,141 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+/* often used */
+.break-white {
+  background-color: $white;
+  padding: 20px 0;
+}
+
+
+
+nav {
+  background-color: $gold;
+  display: block;
+  padding: 0;
+
+  .container {
+    text-align: right;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    .navigation {
+      list-style-type: none;
+      padding: 5px 0 5px 0;
+      margin: 0;
+
+        .navigation-item {
+        display: inline;
+        height: 100%;
+        padding: 10px 30px 6px 30px;
+        margin: 0 -2px 0 -2px;
+        border-right: 1px solid #f0e43d;
+
+
+          a {
+            font-family: 'Open Sans', sans-serif;
+            color: $black;
+            font-size: 14px;
+
+            &:hover {
+              text-decoration: none;
+            }
+
+            &:focus {
+              text-decoration: none;
+            }
+
+          }
+
+        &:hover {
+          background-color: #f08b3d;
+          cursor: pointer;
+        }
+        }
+    }
+    .navigation >:first-child {
+      border-left: 1px solid #f0e43d;
+      }
+
+  }
+}
+
+.logo-container {
+  background-color: #231F20;
+  height: 140px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+  .container {
+    height: 100px;
+    .logo-image {
+      height: 100px;
+      float:left;
+      img {
+        max-height: 100%;
+      }
+    }
+    .logo-text {
+      float: left;
+      height: 70px;
+      padding-top: 10px;
+      padding-left: 20px;
+      h3 {
+        color: $white;
+        font-family: 'Caveat', cursive;
+        font-size: 32px;
+      }
+      h1 {
+        color: $white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 36px;
+      }
+    }
+    .clear {
+      clear:both;
+    }
+  }
+}
+
+/* most popular articles section */
+.most-popular {
+  border: 2px solid $black;
+
+  .row {
+    .popular-header {
+      background-color: $black;
+
+      h3 {
+        color: white;
+      }
+    }
+  }
+
+  .card-group {
+    .single-card {
+      border: 0;
+      margin: 0 25px 0 0;
+
+      .card-img-style {
+        border: 0;
+      }
+      .card-info {
+        border: 0;
+        background-color: white;
+        padding: 0;
+      }
+      .card-text {
+        padding: 10px 0;
+      }
+    }
+
+  }
+
+  .card-group >:last-child {
+    margin-right: 0;
+  }
+
+}
