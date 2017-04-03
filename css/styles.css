@@ -69,9 +69,21 @@ nav {
 .most-popular {
   border: 2px solid #231F20; }
   .most-popular .row .popular-header {
-    background-color: #231F20; }
-    .most-popular .row .popular-header h3 {
-      color: white; }
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #231F20;
+    text-transform: uppercase;
+    background: repeating-linear-gradient(90deg, #231F20, #231F20 50px, #3d2a2f 50px, #3d2a2f 100px); }
+    .most-popular .row .popular-header .popular-header-text {
+      float: left; }
+      .most-popular .row .popular-header .popular-header-text h3 {
+        color: white;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: 2px; }
+    .most-popular .row .popular-header .stripes {
+      float: right;
+      width: 100px;
+      height: 100%; }
   .most-popular .card-group .single-card {
     border: 0;
     margin: 0 25px 0 0; }
@@ -85,3 +97,16 @@ nav {
       padding: 10px 0; }
   .most-popular .card-group > :last-child {
     margin-right: 0; }
+
+/* content section styles */
+/* latest news section styles */
+.latest-header {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #231F20;
+  text-transform: uppercase;
+  background: repeating-linear-gradient(90deg, #231F20, #231F20 50px, #3d2a2f 50px, #3d2a2f 100px); }
+  .latest-header h3 {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px; }
