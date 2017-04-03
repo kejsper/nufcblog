@@ -70,7 +70,9 @@ nav {
           font-size: 38px; }
         .logo-container .logo-full-width .container .logo-text h1 {
           color: #FFFFFF;
-          font-family: 'Open Sans', sans-serif;
+          font-family: 'Russo One', sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 4px;
           font-weight: bold;
           font-size: 48px; }
       .logo-container .logo-full-width .container .clear {
@@ -106,6 +108,9 @@ nav {
       padding: 0; }
     .most-popular .card-group .single-card .card-text {
       padding: 10px 0; }
+      .most-popular .card-group .single-card .card-text h4 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 1.25rem; }
   .most-popular .card-group > :last-child {
     margin-right: 0; }
 
