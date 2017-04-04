@@ -9,6 +9,10 @@ h4 {
   background-color: #FFFFFF;
   padding: 20px 0; }
 
+.sidebar-break-white {
+  background-color: #FFFFFF;
+  padding: 20px 0; }
+
 .img-thumbnail {
   border: 0; }
 
@@ -77,7 +81,8 @@ nav {
         height: 120px;
         float: left; }
         .logo-container .logo-full-width .container .logo-image img {
-          max-height: 100%; }
+          padding-top: 10px;
+          max-height: 110px; }
       .logo-container .logo-full-width .container .logo-text {
         float: left;
         height: 90px;
@@ -117,23 +122,29 @@ nav {
       float: right;
       width: 100px;
       height: 100%; }
-  .most-popular .card-group .single-card {
-    border: 0;
-    margin: 0 25px 0 0; }
-    .most-popular .card-group .single-card .card-img-style {
-      border: 0; }
-    .most-popular .card-group .single-card .card-info {
+  .most-popular .card-group {
+    padding-top: 20px; }
+    .most-popular .card-group .single-card {
       border: 0;
-      background-color: white;
-      padding: 0; }
-    .most-popular .card-group .single-card .card-text {
-      padding: 10px 0; }
-      .most-popular .card-group .single-card .card-text h4 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 1.25rem; }
-      .most-popular .card-group .single-card .card-text .read-more {
-        width: 100%; }
+      margin: 0 25px 0 0; }
+      .most-popular .card-group .single-card .card-photo {
+        height: 250px;
+        background-size: cover;
+        background-position: center center; }
+      .most-popular .card-group .single-card .card-img-style {
+        border: 0; }
+      .most-popular .card-group .single-card .card-info {
+        border: 0;
+        background-color: white;
+        padding: 0; }
+      .most-popular .card-group .single-card .card-text {
+        padding: 10px 0; }
+        .most-popular .card-group .single-card .card-text h4 {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          font-size: 1.25rem; }
+        .most-popular .card-group .single-card .card-text .read-more {
+          width: 100%; }
   .most-popular .card-group > :last-child {
     margin-right: 0; }
 
@@ -158,6 +169,22 @@ nav {
 
 .article-content {
   padding-top: 10px; }
+
+.article-content-text {
+  float: none;
+  text-align: justify; }
+
+.article-photo-left {
+  float: left;
+  max-width: 330px;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+.article-photo-right {
+  float: right;
+  max-width: 360px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
 /* SIDEBAR STYLES */
 .sidebar {
