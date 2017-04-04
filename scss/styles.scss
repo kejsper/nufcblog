@@ -353,7 +353,7 @@ p.quote {
 p.quote-author {
   margin-top: 5px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   text-align: right;
   color: $gold;
 }
@@ -402,6 +402,18 @@ h4.footer-header {
 .rss {
   background-color: #f26522;
 }
+
+/* charity */
+
+.charity {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.charity-img {
+  margin-top: 20px;
+}
+
 /* blogroll */
 .blogroll {
   margin-top: 20px;
