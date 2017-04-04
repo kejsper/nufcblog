@@ -332,6 +332,58 @@ p.poll-question {
 
 /* footer styles */
 footer {
-  background-color: $gold;
-  height: 300px;
+  background-color: $black;
+
+}
+
+
+/* MID COLUMN STYLES - socials+links */
+/* socials */
+.socials {
+  margin-top: 30px;
+  text-align: center;
+}
+h4.footer-header {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.social-icon {
+  margin-top: 20px;
+  font-size: 35px;
+  width: 65px;
+  border-width:0;
+  border-radius: 14px;
+  &:hover {
+    background-color: $white;
+    color: $black;
+  }
+}
+.fb {
+  background-color: #3b5998;
+}
+.tw {
+  background-color: #1da1f2;
+}
+.gplus {
+  background-color: #dd4b39;
+}
+.rss {
+  background-color: #f26522;
+}
+/* blogroll */
+.blogroll {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align:center;
+  color: white;
+  ul {
+    margin-top: 20px;
+  }
+}
+
+.footer-link {
+  text-align: left;
 }
