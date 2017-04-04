@@ -19,19 +19,13 @@ h4 {
 }
 
 .btn-read-more {
-  background-color: black;
-  transition-duration: 1s;
+  background-color: $black;
+
   border: 0;
-  background: repeating-linear-gradient(
-    90deg,
-    $black,
-    $black 30px,
-    #3d2a2f 30px,
-    #3d2a2f 60px
-  );
+
   &:hover {
     cursor: pointer;
-    transition: 0.2s;
+
     background: repeating-linear-gradient(
       90deg,
       #3d2a2f,
@@ -258,4 +252,50 @@ nav {
 
 .article-content {
   padding-top: 10px;
+}
+
+/* SIDEBAR STYLES */
+.sidebar {
+  padding-right: 0;
+
+}
+
+.sidebar-item-container {
+  border: 1px solid $black;
+  padding-bottom: 15px;
+}
+.sidebar-header {
+  background: repeating-linear-gradient(
+    90deg,
+    $black,
+    $black 30px,
+    #3d2a2f 30px,
+    #3d2a2f 60px
+  );
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  h4 {
+
+      color: white;
+      font-family: 'Russo One', sans-serif;
+      letter-spacing: 1px;
+      font-weight: 400;
+  }
+}
+
+p.poll-question {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/* footer styles */
+footer {
+  background-color: $gold;
+  height: 300px;
 }
