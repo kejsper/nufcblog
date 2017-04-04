@@ -216,6 +216,32 @@ p.poll-question {
 footer {
   background-color: #231F20; }
 
+/* LEFT COLUMN STYLES - quote + copyrights */
+/* quote */
+.footer-quote {
+  margin-top: 30px;
+  text-align: center; }
+
+p.quote {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  color: #BBBDBF; }
+
+p.quote-author {
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: right;
+  color: #F0B83D; }
+
+.footer-logo {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  .footer-logo .footer-logo-image {
+    background-color: #231F20; }
+
 /* MID COLUMN STYLES - socials+links */
 /* socials */
 .socials {
@@ -253,7 +279,7 @@ h4.footer-header {
 
 /* blogroll */
 .blogroll {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 60px;
   text-align: center;
   color: white; }
@@ -261,4 +287,8 @@ h4.footer-header {
     margin-top: 20px; }
 
 .footer-link {
-  text-align: left; }
+  margin-left: 25px;
+  margin-bottom: 6px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px; }
