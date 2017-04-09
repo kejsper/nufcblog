@@ -99,6 +99,33 @@ nav {
   }
 }
 
+.logo-small  {
+  height: 150px;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  background-color: $black;
+  .logo-small-img {
+    max-height: 120px;
+  }
+  .logo-small-header {
+    h3 {
+      color: $white;
+      font-family: 'Caveat', cursive;
+      font-size: 38px;
+    }
+    h1 {
+      color: $white;
+      font-family: 'Oranienbaum', serif;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-weight: bold;
+      font-size: 54px;
+    }
+
+  }
+}
+
 .logo-container {
   background-color: #231F20;
   background-image: url('../img/bg-logo2.jpg');
@@ -435,6 +462,8 @@ h4.footer-header {
 }
 
 .copyrights {
-  margin-top: 280px;
+  background-color: $lightblack;
+  padding: 15px 0;
+  margin-top: 60px;
   text-align: center;
 }
