@@ -185,7 +185,12 @@ nav {
 /* most popular articles section */
 .most-popular {
   border: 2px solid $black;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+
+  @media screen and (max-width: 480px) {
+    border: 0;
+    
+  }
 
   .row {
     .popular-header {
@@ -225,7 +230,7 @@ nav {
 
     .single-card {
       border: 0;
-      margin: 0 25px 0 0;
+      margin: 0 25px 35px 0;
 
       .card-photo {
 
@@ -269,6 +274,10 @@ nav {
 /* latest news section styles */
 .news {
   border: 2px solid $black;
+  @media screen and (max-width: 480px) {
+    border: 0;
+
+  }
 }
 .latest-header {
   padding-top: 10px;

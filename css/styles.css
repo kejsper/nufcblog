@@ -125,7 +125,10 @@ nav {
 /* most popular articles section */
 .most-popular {
   border: 2px solid #231F20;
-  padding-bottom: 20px; }
+  padding-bottom: 0px; }
+  @media screen and (max-width: 480px) {
+    .most-popular {
+      border: 0; } }
   .most-popular .row .popular-header {
     padding-top: 10px;
     padding-bottom: 5px;
@@ -146,7 +149,7 @@ nav {
     padding-top: 20px; }
     .most-popular .card-group .single-card {
       border: 0;
-      margin: 0 25px 0 0; }
+      margin: 0 25px 35px 0; }
       .most-popular .card-group .single-card .card-photo {
         height: 250px;
         background-size: cover;
@@ -172,6 +175,9 @@ nav {
 /* latest news section styles */
 .news {
   border: 2px solid #231F20; }
+  @media screen and (max-width: 480px) {
+    .news {
+      border: 0; } }
 
 .latest-header {
   padding-top: 10px;
