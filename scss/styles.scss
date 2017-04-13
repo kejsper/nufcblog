@@ -32,13 +32,7 @@ h4 {
   &:hover {
     cursor: pointer;
 
-    background: repeating-linear-gradient(
-      90deg,
-      #3d2a2f,
-      #3d2a2f 30px,
-      $black 30px,
-      $black 60px
-    );
+    background: $lightblack;
   }
   &:focus :active{
     border: 0;
@@ -228,20 +222,26 @@ nav {
   .card-group {
     padding-top: 20px;
 
+
     .single-card {
       border: 0;
       margin: 0 25px 35px 0;
 
-      .card-photo {
+      .card-photo-wrapper {
+        overflow: hidden;
 
-        height: 250px;
-        background-size: cover;
-        background-position: center center;
+        .card-photo {
+          height: 250px;
+          background-size: cover;
+          background-position: center center;
+          transition: 0.2s;
+        }
+      }
+      &:hover .card-photo-wrapper .card-photo {
+        transition: 0.2s;
+        transform: scale(1.1);
       }
 
-      .card-img-style {
-        border: 0;
-      }
       .card-info {
         border: 0;
         background-color: white;
@@ -398,10 +398,13 @@ p.quote-author {
   margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
+
   .footer-logo-image {
     background-color: $black;
-    max-width: 359px;
-
+    @media screen and (max-width: 768px) {
+      width: 90%;
+      max-width: 330px;
+    }
   }
 }
 
@@ -478,4 +481,21 @@ h4.footer-header {
   padding: 15px 0;
   margin-top: 60px;
   text-align: center;
+}
+
+#scrolltop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: $black;
+
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  cursor: pointer;
+  i {
+    color: white;
+  }
 }

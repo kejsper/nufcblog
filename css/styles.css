@@ -21,7 +21,7 @@ h4 {
   border: 0; }
   .btn-read-more:hover {
     cursor: pointer;
-    background: repeating-linear-gradient(90deg, #3d2a2f, #3d2a2f 30px, #231F20 30px, #231F20 60px); }
+    background: #3d2a2f; }
   .btn-read-more:focus :active {
     border: 0; }
 
@@ -150,12 +150,16 @@ nav {
     .most-popular .card-group .single-card {
       border: 0;
       margin: 0 25px 35px 0; }
-      .most-popular .card-group .single-card .card-photo {
-        height: 250px;
-        background-size: cover;
-        background-position: center center; }
-      .most-popular .card-group .single-card .card-img-style {
-        border: 0; }
+      .most-popular .card-group .single-card .card-photo-wrapper {
+        overflow: hidden; }
+        .most-popular .card-group .single-card .card-photo-wrapper .card-photo {
+          height: 250px;
+          background-size: cover;
+          background-position: center center;
+          transition: 0.2s; }
+      .most-popular .card-group .single-card:hover .card-photo-wrapper .card-photo {
+        transition: 0.2s;
+        transform: scale(1.1); }
       .most-popular .card-group .single-card .card-info {
         border: 0;
         background-color: white;
@@ -268,8 +272,11 @@ p.quote-author {
   margin-bottom: 30px;
   text-align: center; }
   .footer-logo .footer-logo-image {
-    background-color: #231F20;
-    max-width: 359px; }
+    background-color: #231F20; }
+    @media screen and (max-width: 768px) {
+      .footer-logo .footer-logo-image {
+        width: 90%;
+        max-width: 330px; } }
 
 /* MID COLUMN STYLES - socials+links */
 /* socials */
@@ -337,3 +344,17 @@ h4.footer-header {
   padding: 15px 0;
   margin-top: 60px;
   text-align: center; }
+
+#scrolltop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #231F20;
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  cursor: pointer; }
+  #scrolltop i {
+    color: white; }
