@@ -189,7 +189,7 @@ nav {
 
   @media screen and (max-width: 480px) {
     border: 0;
-    
+
   }
 
   .row {
@@ -369,7 +369,7 @@ p.poll-question {
 /* footer styles */
 footer {
   background-color: $black;
-
+  padding-top: 30px;
 }
 
 /* LEFT COLUMN STYLES - quote + copyrights */
@@ -397,8 +397,11 @@ p.quote-author {
 .footer-logo {
   margin-top: 50px;
   margin-bottom: 30px;
+  text-align: center;
   .footer-logo-image {
     background-color: $black;
+    max-width: 359px;
+
   }
 }
 

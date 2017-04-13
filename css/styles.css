@@ -240,7 +240,8 @@ p.poll-question {
 
 /* footer styles */
 footer {
-  background-color: #231F20; }
+  background-color: #231F20;
+  padding-top: 30px; }
 
 /* LEFT COLUMN STYLES - quote + copyrights */
 /* quote */
@@ -264,9 +265,11 @@ p.quote-author {
 
 .footer-logo {
   margin-top: 50px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: center; }
   .footer-logo .footer-logo-image {
-    background-color: #231F20; }
+    background-color: #231F20;
+    max-width: 359px; }
 
 /* MID COLUMN STYLES - socials+links */
 /* socials */
