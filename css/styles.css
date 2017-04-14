@@ -124,7 +124,7 @@ nav {
 
 /* most popular articles section */
 .most-popular {
-  border: 2px solid #231F20;
+  border: 1px solid #231F20;
   padding-bottom: 0px; }
   @media screen and (max-width: 480px) {
     .most-popular {
@@ -178,7 +178,7 @@ nav {
 /* content section styles */
 /* latest news section styles */
 .news {
-  border: 2px solid #231F20; }
+  border: 1px solid #231F20; }
   @media screen and (max-width: 480px) {
     .news {
       border: 0; } }

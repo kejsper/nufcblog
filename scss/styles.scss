@@ -178,7 +178,7 @@ nav {
 
 /* most popular articles section */
 .most-popular {
-  border: 2px solid $black;
+  border: 1px solid $black;
   padding-bottom: 0px;
 
   @media screen and (max-width: 480px) {
@@ -273,7 +273,7 @@ nav {
 
 /* latest news section styles */
 .news {
-  border: 2px solid $black;
+  border: 1px solid $black;
   @media screen and (max-width: 480px) {
     border: 0;
 
